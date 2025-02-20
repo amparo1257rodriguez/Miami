@@ -17,8 +17,8 @@
 </head>
 <body>
 
-    <div class="loading-icon">📲</div>
-    <h1>¡Redirigiendote a tu cajero de confianza!</h1>
+    <div class="loading-icon"><img width="188" height="188" src="https://img.icons8.com/3d-fluency/188/whatsapp.png" alt="whatsapp"/></div>
+    <h1>¡Redirigiendote a WhatsApp!</h1>
     <p>No cierres esta página. Serás redirigido en pocos segundos...</p>
     <div class="progress-bar"><div class="progress"></div></div>
 
@@ -36,7 +36,7 @@
 
         setTimeout(function() {
             let numero = "5491171998673";
-            let mensaje = "¡Hola, quiero crear un usuario y acceder a la bonificación!";
+            let mensaje = "¡Hola! Vi la publicación y me gustaría acceder a la bonificación. Mi nombre es: ";
             let enlace = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
             window.location.href = enlace;
         }, 2500); // Redirige después de 2.5 segundos
